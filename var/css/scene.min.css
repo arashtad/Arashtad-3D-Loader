@@ -1,0 +1,181 @@
+.canvas-wrapper {
+  position: relative; }
+  .canvas-wrapper.scrolllock {
+    overscroll-behavior: contain; }
+  .canvas-wrapper canvas {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none; }
+    .canvas-wrapper canvas:focus, .canvas-wrapper canvas:active {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border: none;
+      outline: none; }
+    .canvas-wrapper canvas.loading {
+      opacity: 0; }
+    .canvas-wrapper canvas.loaded {
+      opacity: 1;
+      transition: opacity .8s ease; }
+  .canvas-wrapper .preloader {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(10, 10, 12, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .6s ease, visibility .6s ease;
+    text-align: center; }
+    .canvas-wrapper .preloader.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none; }
+    .canvas-wrapper .preloader .loading-counter {
+      position: fixed;
+      z-index: 11;
+      left: 50%;
+      top: 50%;
+      width: 80px;
+      margin-top: -28px;
+      transform: translateX(-50%);
+      color: #ffffff;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: .08em;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+      transition: opacity .4s ease, transform .4s ease; }
+      .canvas-wrapper .preloader .loading-counter.hidden {
+        opacity: 0;
+        visibility: hidden; }
+    .canvas-wrapper .preloader .loading-bar {
+      position: fixed;
+      z-index: 11;
+      left: 0;
+      bottom: 0;
+      width: min(320px, 60vw);
+      height: 3px;
+      margin-top: 12px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.03), 0 4px 20px rgba(0, 0, 0, 0.25);
+      transition: opacity .5s ease, visibility .5s ease; }
+      .canvas-wrapper .preloader .loading-bar:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, #26a38c, #43d6b9);
+        box-shadow: 0 0 12px rgba(38, 163, 140, 0.6), 0 0 28px rgba(38, 163, 140, 0.25);
+        transform-origin: left center; }
+      .canvas-wrapper .preloader .loading-bar.hidden {
+        opacity: 0;
+        visibility: hidden; }
+    .canvas-wrapper .preloader .ar-spinner {
+      position: fixed;
+      z-index: 11;
+      left: calc(50% - 24px);
+      top: calc(50% + 9px);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: conic-gradient(rgba(67, 214, 185, 0.05), rgba(67, 214, 185, 0.05), #43d6b9, #26a38c);
+      animation: spin .9s linear infinite;
+      box-shadow: 0 0 24px rgba(38, 163, 140, 0.7); }
+      .canvas-wrapper .preloader .ar-spinner:after {
+        content: "";
+        position: absolute;
+        inset: 4px;
+        border-radius: 50%;
+        background: #111111; }
+  .canvas-wrapper .poster {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: opacity .8s ease, visibility .8s ease;
+    cursor: pointer; }
+    .canvas-wrapper .poster.visible {
+      opacity: 1;
+      visibility: visible; }
+    .canvas-wrapper .poster img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+.arashtad-downloads {
+  margin: 10px 0; }
+  .arashtad-downloads .arashtad-download-button {
+    position: relative;
+    display: inline-block;
+    padding: 7px 9px 7px 36px;
+    border-radius: 4px;
+    background: #26a38c;
+    color: white;
+    transition: all .3s; }
+    .arashtad-downloads .arashtad-download-button:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      z-index: 0;
+      top: 22px;
+      left: 9px;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-top: 11px solid #3adabc;
+      transition: all .3s; }
+    .arashtad-downloads .arashtad-download-button:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      z-index: 0;
+      top: 27px;
+      left: 10px;
+      width: 15px;
+      height: 3px;
+      background: #3adabc;
+      transition: all .3s; }
+    .arashtad-downloads .arashtad-download-button:hover {
+      background: #176859; }
+      .arashtad-downloads .arashtad-download-button:hover:before {
+        border-top-color: white; }
+      .arashtad-downloads .arashtad-download-button:hover:after {
+        background: white; }
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg); } }
+@media (max-width: 980px) {
+  .canvas-wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    aspect-ratio: none; } }

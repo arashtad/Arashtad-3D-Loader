@@ -1,0 +1,962 @@
+# Copyright (C) 2026 Arashtad
+# This file is distributed under the GPL-2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Arashtad 3D Loader 2.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/arashtad-3d-loader\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-11T18:30:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: arashtad-3d-loader\n"
+
+#. Plugin Name of the plugin
+#: arashtad-3d-loader.php
+#: var/js/block.js:8
+#: var/js/block.js:40
+msgid "Arashtad 3D Loader"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: arashtad-3d-loader.php
+msgid "https://arashtad.com/arashtad-3d-loader"
+msgstr ""
+
+#. Description of the plugin
+#: arashtad-3d-loader.php
+msgid "Display interactive Babylon.js 3D models in WordPress."
+msgstr ""
+
+#. Author of the plugin
+#: arashtad-3d-loader.php
+msgid "Arashtad"
+msgstr ""
+
+#. Author URI of the plugin
+#: arashtad-3d-loader.php
+msgid "https://arashtad.com"
+msgstr ""
+
+#: opt/admin.php:18
+msgid "3D Loaders"
+msgstr ""
+
+#: opt/admin.php:19
+msgid "3D Loader"
+msgstr ""
+
+#: opt/admin.php:20
+msgid "Add Loader"
+msgstr ""
+
+#: opt/admin.php:21
+msgid "Add 3D Loader"
+msgstr ""
+
+#: opt/admin.php:22
+msgid "Edit 3D Loader"
+msgstr ""
+
+#: opt/admin.php:23
+msgid "New 3D Loader"
+msgstr ""
+
+#: opt/admin.php:24
+msgid "View 3D Loader"
+msgstr ""
+
+#: opt/admin.php:25
+msgid "Search 3D Loaders"
+msgstr ""
+
+#: opt/admin.php:26
+msgid "No 3D Loaders found"
+msgstr ""
+
+#: opt/admin.php:49
+#: opt/admin.php:50
+#: opt/admin.php:1337
+msgid "Pro Features"
+msgstr ""
+
+#: opt/admin.php:107
+msgid "3D Model"
+msgstr ""
+
+#: opt/admin.php:108
+msgid "Preview"
+msgstr ""
+
+#: opt/admin.php:111
+#: opt/admin.php:319
+#: opt/admin.php:680
+msgid "Shortcode"
+msgstr ""
+
+#: opt/admin.php:117
+#: opt/admin.php:1330
+msgid "Resources"
+msgstr ""
+
+#: opt/admin.php:128
+msgid "Model Source"
+msgstr ""
+
+#: opt/admin.php:139
+msgid "Select Model"
+msgstr ""
+
+#: opt/admin.php:143
+#: opt/admin.php:945
+msgid "Clear"
+msgstr ""
+
+#: opt/admin.php:148
+msgid "Select a model from the Media Library or enter an internal or external URL."
+msgstr ""
+
+#: opt/admin.php:310
+msgid "Save the scene to generate the shortcode."
+msgstr ""
+
+#: opt/admin.php:340
+#: opt/admin.php:692
+msgid "Copy"
+msgstr ""
+
+#: opt/admin.php:351
+#: opt/admin.php:433
+msgid "Model Settings"
+msgstr ""
+
+#: opt/admin.php:440
+#: opt/admin.php:950
+#: opt/admin.php:1438
+msgid "Position"
+msgstr ""
+
+#: opt/admin.php:468
+msgid "Babylon.js Vector3 position."
+msgstr ""
+
+#: opt/admin.php:472
+msgid "Rotation"
+msgstr ""
+
+#: opt/admin.php:500
+msgid "Babylon.js Vector3 rotation in radians."
+msgstr ""
+
+#: opt/admin.php:504
+msgid "Scaling"
+msgstr ""
+
+#: opt/admin.php:532
+msgid "Babylon.js Vector3 scaling. Default: 1, 1, 1."
+msgstr ""
+
+#: opt/admin.php:543
+msgid "Enable Model Download"
+msgstr ""
+
+#: opt/admin.php:548
+msgid "Display a download button below the canvas so visitors can download the scene model(s)."
+msgstr ""
+
+#: opt/admin.php:554
+msgid "The source file can be GLB, GLTF, OBJ, STL, PLY, Babylon, or any other format supported by the loaded Babylon.js loaders."
+msgstr ""
+
+#: opt/admin.php:852
+msgid "Wrapper Styles"
+msgstr ""
+
+#: opt/admin.php:892
+msgid "Wrapper Settings"
+msgstr ""
+
+#: opt/admin.php:905
+msgid "Enable Scroll Lock"
+msgstr ""
+
+#: opt/admin.php:910
+msgid "Prevent page scrolling while interacting with the 3D canvas."
+msgstr ""
+
+#: opt/admin.php:922
+msgid "Enable Poster"
+msgstr ""
+
+#: opt/admin.php:927
+msgid "Displays a poster image when the page loads. Click the poster to hide it and reveal the 3D scene."
+msgstr ""
+
+#: opt/admin.php:932
+msgid "Poster Image"
+msgstr ""
+
+#: opt/admin.php:944
+msgid "Select Poster"
+msgstr ""
+
+#: opt/admin.php:960
+msgid "Z-Index"
+msgstr ""
+
+#: opt/admin.php:961
+msgid "Top"
+msgstr ""
+
+#: opt/admin.php:962
+msgid "Left"
+msgstr ""
+
+#: opt/admin.php:963
+msgid "Bottom"
+msgstr ""
+
+#: opt/admin.php:964
+msgid "Right"
+msgstr ""
+
+#: opt/admin.php:965
+msgid "Transform"
+msgstr ""
+
+#: opt/admin.php:966
+msgid "Margin"
+msgstr ""
+
+#: opt/admin.php:967
+msgid "Padding"
+msgstr ""
+
+#: opt/admin.php:968
+msgid "Width"
+msgstr ""
+
+#: opt/admin.php:969
+msgid "Max Width"
+msgstr ""
+
+#: opt/admin.php:970
+msgid "Height"
+msgstr ""
+
+#: opt/admin.php:971
+msgid "Max Height"
+msgstr ""
+
+#: opt/admin.php:972
+msgid "Aspect Ratio"
+msgstr ""
+
+#: opt/admin.php:973
+msgid "Border"
+msgstr ""
+
+#: opt/admin.php:974
+msgid "Border Radius"
+msgstr ""
+
+#: opt/admin.php:975
+msgid "Overflow"
+msgstr ""
+
+#: opt/admin.php:976
+msgid "Box Sizing"
+msgstr ""
+
+#: opt/admin.php:977
+msgid "Box Shadow"
+msgstr ""
+
+#: opt/admin.php:978
+msgid "Outline"
+msgstr ""
+
+#: opt/admin.php:1036
+msgid "Clear Color"
+msgstr ""
+
+#: opt/admin.php:1053
+msgid "clearColor Settings"
+msgstr ""
+
+#: opt/admin.php:1065
+msgid "Enter RGBA values separated by commas (R, G, B, A). Each value between 0 and 1. Clear color appears on top of the canvas background!"
+msgstr ""
+
+#: opt/admin.php:1100
+#: opt/admin.php:1114
+msgid "Lazy Loading"
+msgstr ""
+
+#: opt/admin.php:1122
+msgid "Enable Lazy Loading"
+msgstr ""
+
+#: opt/admin.php:1127
+msgid "When enabled, the 3D scene will only load when it becomes visible in the viewport. This can improve page load performance."
+msgstr ""
+
+#: opt/admin.php:1160
+#: opt/admin.php:1195
+msgid "Camera Settings"
+msgstr ""
+
+#: opt/admin.php:1203
+msgid "Camera Type"
+msgstr ""
+
+#: opt/admin.php:1206
+msgid "Arc Rotate Camera"
+msgstr ""
+
+#: opt/admin.php:1207
+msgid "Universal Camera"
+msgstr ""
+
+#: opt/admin.php:1208
+msgid "Free Camera"
+msgstr ""
+
+#: opt/admin.php:1210
+msgid "Select the type of camera to use for the 3D scene."
+msgstr ""
+
+#: opt/admin.php:1215
+msgid "Alpha (radians)"
+msgstr ""
+
+#: opt/admin.php:1218
+msgid "Camera rotation around the target (horizontal). Default: 1.57"
+msgstr ""
+
+#: opt/admin.php:1223
+msgid "Beta (radians)"
+msgstr ""
+
+#: opt/admin.php:1226
+msgid "Camera rotation around the target (vertical). Default: 1.2"
+msgstr ""
+
+#: opt/admin.php:1231
+msgid "Radius"
+msgstr ""
+
+#: opt/admin.php:1234
+msgid "Distance from the target. Default: 12"
+msgstr ""
+
+#: opt/admin.php:1239
+msgid "Target Position"
+msgstr ""
+
+#: opt/admin.php:1246
+msgid "The point the camera looks at. Default: 0, 0, 0"
+msgstr ""
+
+#: opt/admin.php:1251
+msgid "Camera Position"
+msgstr ""
+
+#: opt/admin.php:1258
+msgid "The position of the camera. Default: 0, 0, 3"
+msgstr ""
+
+#: opt/admin.php:1263
+msgid "Field of View (radians)"
+msgstr ""
+
+#: opt/admin.php:1266
+msgid "Camera field of view. Default: 0.4"
+msgstr ""
+
+#: opt/admin.php:1271
+msgid "Min Z"
+msgstr ""
+
+#: opt/admin.php:1274
+msgid "Minimum rendering distance. Default: 0.1"
+msgstr ""
+
+#: opt/admin.php:1279
+msgid "Max Z"
+msgstr ""
+
+#: opt/admin.php:1282
+msgid "Maximum rendering distance. Default: 1000"
+msgstr ""
+
+#: opt/admin.php:1287
+msgid "Auto Rotation"
+msgstr ""
+
+#: opt/admin.php:1291
+msgid "Enable auto rotation"
+msgstr ""
+
+#: opt/admin.php:1297
+msgid "Rotation Speed"
+msgstr ""
+
+#: opt/admin.php:1300
+msgid "Rotation speed when idle. Default: 0.1"
+msgstr ""
+
+#: opt/admin.php:1305
+msgid "Wait Time (ms)"
+msgstr ""
+
+#: opt/admin.php:1308
+msgid "Time to wait before starting rotation. Default: 3000"
+msgstr ""
+
+#: opt/admin.php:1313
+msgid "Spinup Time (ms)"
+msgstr ""
+
+#: opt/admin.php:1316
+msgid "Time to reach full rotation speed. Default: 6000"
+msgstr ""
+
+#: opt/admin.php:1343
+msgid "Upgrade"
+msgstr ""
+
+#: opt/admin.php:1349
+msgid "Demo"
+msgstr ""
+
+#: opt/admin.php:1355
+msgid "Documentation"
+msgstr ""
+
+#: opt/admin.php:1361
+msgid "Tutorials"
+msgstr ""
+
+#: opt/admin.php:1367
+msgid "Powered by"
+msgstr ""
+
+#: opt/admin.php:1369
+msgid "Arashtad 3D Runtime"
+msgstr ""
+
+#: opt/admin.php:1379
+#: opt/admin.php:1407
+msgid "Light Settings"
+msgstr ""
+
+#: opt/admin.php:1413
+msgid "Light Type"
+msgstr ""
+
+#: opt/admin.php:1417
+msgid "Hemispheric Light"
+msgstr ""
+
+#: opt/admin.php:1418
+msgid "Point Light"
+msgstr ""
+
+#: opt/admin.php:1419
+msgid "Directional Light"
+msgstr ""
+
+#: opt/admin.php:1420
+msgid "Spot Light"
+msgstr ""
+
+#: opt/admin.php:1424
+msgid "Select the Babylon.js light type."
+msgstr ""
+
+#: opt/admin.php:1428
+msgid "Direction"
+msgstr ""
+
+#: opt/admin.php:1449
+msgid "Angle"
+msgstr ""
+
+#: opt/admin.php:1455
+msgid "SpotLight cone angle in radians."
+msgstr ""
+
+#: opt/admin.php:1461
+msgid "Exponent"
+msgstr ""
+
+#: opt/admin.php:1467
+msgid "SpotLight falloff exponent."
+msgstr ""
+
+#: opt/admin.php:1472
+msgid "Intensity"
+msgstr ""
+
+#: opt/pro-features.php:15
+#: opt/pro-features.php:493
+msgid "PRO"
+msgstr ""
+
+#: opt/pro-features.php:19
+msgid "Arashtad 3D Loader Pro"
+msgstr ""
+
+#: opt/pro-features.php:23
+msgid "Go beyond 3D model viewing and build powerful interactive 3D experiences in WordPress."
+msgstr ""
+
+#: opt/pro-features.php:30
+msgid "Unlock AR, WebXR, advanced scene and mesh control, materials, animation, visual effects, builders, and WooCommerce integration."
+msgstr ""
+
+#: opt/pro-features.php:37
+#: opt/pro-features.php:508
+msgid "Get Arashtad Pro"
+msgstr ""
+
+#: opt/pro-features.php:54
+msgid "EXPAND YOUR 3D WORKFLOW"
+msgstr ""
+
+#: opt/pro-features.php:58
+msgid "From Model to Interactive Experience"
+msgstr ""
+
+#: opt/pro-features.php:66
+msgid "Model"
+msgstr ""
+
+#: opt/pro-features.php:67
+msgid "Load"
+msgstr ""
+
+#: opt/pro-features.php:72
+msgid "Customize"
+msgstr ""
+
+#: opt/pro-features.php:73
+msgid "Configure"
+msgstr ""
+
+#: opt/pro-features.php:78
+msgid "Interact"
+msgstr ""
+
+#: opt/pro-features.php:79
+msgid "Respond"
+msgstr ""
+
+#: opt/pro-features.php:84
+msgid "Animate"
+msgstr ""
+
+#: opt/pro-features.php:85
+msgid "Control"
+msgstr ""
+
+#: opt/pro-features.php:90
+msgid "Build"
+msgstr ""
+
+#: opt/pro-features.php:91
+msgid "Create"
+msgstr ""
+
+#: opt/pro-features.php:96
+msgid "Sell"
+msgstr ""
+
+#: opt/pro-features.php:97
+msgid "WooCommerce"
+msgstr ""
+
+#: opt/pro-features.php:113
+msgid "IMMERSIVE 3D"
+msgstr ""
+
+#: opt/pro-features.php:117
+msgid "Bring 3D Into the Real World"
+msgstr ""
+
+#: opt/pro-features.php:121
+msgid "Take your 3D content beyond the browser with augmented and immersive experiences."
+msgstr ""
+
+#: opt/pro-features.php:128
+msgid "Augmented Reality"
+msgstr ""
+
+#: opt/pro-features.php:129
+#: opt/pro-features.php:139
+msgid "WebXR"
+msgstr ""
+
+#: opt/pro-features.php:130
+msgid "Desktop QR to AR"
+msgstr ""
+
+#: opt/pro-features.php:137
+msgid "AR"
+msgstr ""
+
+#: opt/pro-features.php:138
+msgid "VR"
+msgstr ""
+
+#: opt/pro-features.php:140
+msgid "QR"
+msgstr ""
+
+#: opt/pro-features.php:141
+msgid "Immerse"
+msgstr ""
+
+#: opt/pro-features.php:154
+msgid "SCENE"
+msgstr ""
+
+#: opt/pro-features.php:155
+msgid "MODEL"
+msgstr ""
+
+#: opt/pro-features.php:156
+msgid "LIGHT"
+msgstr ""
+
+#: opt/pro-features.php:157
+msgid "CAMERA"
+msgstr ""
+
+#: opt/pro-features.php:158
+msgid "ENV"
+msgstr ""
+
+#: opt/pro-features.php:159
+msgid "ACTIONS"
+msgstr ""
+
+#: opt/pro-features.php:167
+msgid "ADVANCED CONTROL"
+msgstr ""
+
+#: opt/pro-features.php:171
+msgid "Control Your Entire Scene"
+msgstr ""
+
+#: opt/pro-features.php:175
+msgid "Go beyond basic viewer configuration and create scenes that respond to visitors and application logic."
+msgstr ""
+
+#: opt/pro-features.php:182
+msgid "Advanced scene styling"
+msgstr ""
+
+#: opt/pro-features.php:183
+msgid "Custom CSS for canvas"
+msgstr ""
+
+#: opt/pro-features.php:184
+msgid ".env / .hdr environments"
+msgstr ""
+
+#: opt/pro-features.php:185
+msgid "Custom environment settings"
+msgstr ""
+
+#: opt/pro-features.php:186
+msgid "Per-scene triggers for custom functions"
+msgstr ""
+
+#: opt/pro-features.php:187
+msgid "JavaScript native events and action triggers"
+msgstr ""
+
+#: opt/pro-features.php:188
+msgid "Babylon native events and action triggers"
+msgstr ""
+
+#: opt/pro-features.php:202
+msgid "VIEWER"
+msgstr ""
+
+#: opt/pro-features.php:206
+msgid "Customize the Loading Experience"
+msgstr ""
+
+#: opt/pro-features.php:210
+msgid "Give your visitors a polished loading experience with a fully customizable preloader."
+msgstr ""
+
+#: opt/pro-features.php:217
+msgid "Preloader customization"
+msgstr ""
+
+#: opt/pro-features.php:226
+msgid "Loading"
+msgstr ""
+
+#: opt/pro-features.php:252
+msgid "ADVANCED MESH CONTROL"
+msgstr ""
+
+#: opt/pro-features.php:256
+msgid "Control Individual Parts of Your Models"
+msgstr ""
+
+#: opt/pro-features.php:260
+msgid "Create interactive 3D experiences where individual models and meshes can have their own behavior, materials, textures, and actions."
+msgstr ""
+
+#: opt/pro-features.php:267
+msgid "Babylon-native events and triggers"
+msgstr ""
+
+#: opt/pro-features.php:268
+msgid "Per-model triggers for custom functions"
+msgstr ""
+
+#: opt/pro-features.php:269
+msgid "Per-mesh triggers for custom functions"
+msgstr ""
+
+#: opt/pro-features.php:270
+msgid "Per-mesh material customization"
+msgstr ""
+
+#: opt/pro-features.php:271
+msgid "Per-mesh texture customization"
+msgstr ""
+
+#: opt/pro-features.php:272
+msgid "StandardMaterial"
+msgstr ""
+
+#: opt/pro-features.php:273
+msgid "PBRMaterial"
+msgstr ""
+
+#: opt/pro-features.php:274
+msgid "Unlimited custom PBRMaterial creator"
+msgstr ""
+
+#: opt/pro-features.php:290
+msgid "ADVANCED LIGHTING"
+msgstr ""
+
+#: opt/pro-features.php:294
+msgid "Build Sophisticated Lighting"
+msgstr ""
+
+#: opt/pro-features.php:298
+msgid "Multiple lights"
+msgstr ""
+
+#: opt/pro-features.php:299
+msgid "Multiple light types"
+msgstr ""
+
+#: opt/pro-features.php:300
+msgid "Light color"
+msgstr ""
+
+#: opt/pro-features.php:301
+msgid "Light intensity"
+msgstr ""
+
+#: opt/pro-features.php:302
+msgid "Advanced shadow control"
+msgstr ""
+
+#: opt/pro-features.php:313
+msgid "ADVANCED ANIMATION"
+msgstr ""
+
+#: opt/pro-features.php:317
+msgid "Control Model Animation"
+msgstr ""
+
+#: opt/pro-features.php:321
+msgid "Animation selection"
+msgstr ""
+
+#: opt/pro-features.php:322
+msgid "Animation speed"
+msgstr ""
+
+#: opt/pro-features.php:323
+msgid "Animation start"
+msgstr ""
+
+#: opt/pro-features.php:324
+msgid "Animation stop"
+msgstr ""
+
+#: opt/pro-features.php:325
+msgid "Animation pause"
+msgstr ""
+
+#: opt/pro-features.php:341
+msgid "VISUAL EFFECTS"
+msgstr ""
+
+#: opt/pro-features.php:345
+msgid "Add Advanced Visual Effects"
+msgstr ""
+
+#: opt/pro-features.php:349
+msgid "Enhance your 3D scenes with real-time post-processing effects."
+msgstr ""
+
+#: opt/pro-features.php:356
+msgid "Post-processing"
+msgstr ""
+
+#: opt/pro-features.php:369
+msgid "BUILDER"
+msgstr ""
+
+#: opt/pro-features.php:373
+msgid "Build Complete 3D Experiences"
+msgstr ""
+
+#: opt/pro-features.php:377
+msgid "Combine WordPress content with interactive 3D experiences."
+msgstr ""
+
+#: opt/pro-features.php:392
+msgid "Hero Sections"
+msgstr ""
+
+#: opt/pro-features.php:396
+msgid "Create hero sections combining traditional 2D WordPress content with interactive 3D."
+msgstr ""
+
+#: opt/pro-features.php:403
+msgid "2D + 3D blocks"
+msgstr ""
+
+#: opt/pro-features.php:414
+msgid "3D Advertising"
+msgstr ""
+
+#: opt/pro-features.php:418
+msgid "Create interactive 3D promotional banners and advertising experiences."
+msgstr ""
+
+#: opt/pro-features.php:425
+msgid "3D ad banner maker"
+msgstr ""
+
+#: opt/pro-features.php:441
+msgid "WOOCOMMERCE"
+msgstr ""
+
+#: opt/pro-features.php:445
+msgid "Bring Your Products Into 3D"
+msgstr ""
+
+#: opt/pro-features.php:449
+msgid "Turn WooCommerce products into interactive 3D experiences and give customers a completely new way to explore products."
+msgstr ""
+
+#: opt/pro-features.php:460
+msgid "3D Gallery"
+msgstr ""
+
+#: opt/pro-features.php:461
+msgid "Interactive product visualization"
+msgstr ""
+
+#: opt/pro-features.php:465
+msgid "Multiple Models"
+msgstr ""
+
+#: opt/pro-features.php:466
+msgid "Use multiple models per product"
+msgstr ""
+
+#: opt/pro-features.php:470
+msgid "Variations"
+msgstr ""
+
+#: opt/pro-features.php:471
+msgid "Assign models to individual variations"
+msgstr ""
+
+#: opt/pro-features.php:475
+msgid "Gallery Replacement"
+msgstr ""
+
+#: opt/pro-features.php:476
+msgid "Replace product images with 3D"
+msgstr ""
+
+#: opt/pro-features.php:480
+msgid "3D Placement"
+msgstr ""
+
+#: opt/pro-features.php:481
+msgid "Display models above or below product images"
+msgstr ""
+
+#: opt/pro-features.php:497
+msgid "Take Your 3D Experiences Further"
+msgstr ""
+
+#: opt/pro-features.php:501
+msgid "Unlock the advanced capabilities of Arashtad 3D Loader."
+msgstr ""
+
+#: opt/pro-features.php:518
+msgid "Powered by Babylon.js"
+msgstr ""
+
+#: opt/pro-features.php:522
+msgid "No telemetry · No tracking · No hidden requests"
+msgstr ""
+
+#: opt/shortcode.php:164
+msgid "Download Model"
+msgstr ""
+
+#: var/js/admin.js:645
+msgid "Select 3D Model"
+msgstr ""
+
+#: var/js/admin.js:647
+msgid "Use This Model"
+msgstr ""
+
+#: var/js/admin.js:708
+msgid "Copied"
+msgstr ""
+
+#: var/js/admin.js:859
+msgid "Select Poster Image"
+msgstr ""
+
+#: var/js/admin.js:860
+msgid "Use Poster"
+msgstr ""
+
+#: var/js/block.js:9
+msgid "Insert an Arashtad 3D Loader."
+msgstr ""
+
+#: var/js/block.js:33
+msgid "Select a 3D Loader"
+msgstr ""
+
+#: var/js/block.js:54
+msgid "Remove Loader"
+msgstr ""
